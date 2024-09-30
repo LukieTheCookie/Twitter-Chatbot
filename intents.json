@@ -1,0 +1,28 @@
+{"intents": [
+        {"tag": "Greet",
+         "patterns": ["Hello", "Hi, how are you doing","Hey","Wassup", "Good day", "Good Morning", "Good Afternoon"],
+         "responses": ["Hello, How are you doing?", "Hey", "Hello how may I help you?", "Hey, I havent heard from you in a while!"],
+         "context": [""]
+        },
+        {"tag": "Goodbye",
+         "patterns": ["Goodbye", "Talk to you later", "See you later aligator", "Byeeee", "Speak again", "Till next time", "Safe!"],
+         "responses": ["Goodbye", "Talk to you later", "See you later aligator", "Byeeee", "Speak again", "Till next time", "Safe!"],
+         "context": [""]
+        },
+        {"tag": "Pleasure",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome", "Wonderful, thanks"],
+         "responses": ["Well thank you", "Happy to be of assistance", "My pleasure"],
+         "context": [""]
+        },
+	{"tag": "SmallTalk",
+	 "patterns": ["How are you?", "Its a lovely day today", "Whats new?", "What are you up to?"],
+	 "responses": ["Im all good", "Yes sure is a lovely day", "All good, just busy with chatbot assignment", "Trying to get an A+ for my assignment!"],
+	 "context": [""]
+	},
+        {"tag": "NoReply",
+         "patterns": [""],
+         "responses": ["What are you trying to say?", "Please send an english message and not gibberish", "Blaa blaa blaa"],
+         "context": [""]
+        }
+   ]
+}
